@@ -2,12 +2,12 @@ import React from 'react'
 
 function NavBar(props){
   const colors = {
-    black: 'navbar-inverse',
-    white: 'navbar-default'
-  }
+    black: "navbar-dark",
+    white: "navbar-dark"
+  };
   
   return (
-    <nav className={`navbar ${colors[props.color]}`}>
+    <nav className={`nav ${colors[props.color]} bg-dark`}>
       <div className='container-fluid'>
         <div className='navbar-header'>
           <a className='navbar-brand'>
